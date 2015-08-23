@@ -14,6 +14,12 @@
 		81B326C61B897F7700334F70 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 81B326C51B897F7700334F70 /* Images.xcassets */; };
 		81B326C91B897F7700334F70 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 81B326C71B897F7700334F70 /* MainMenu.xib */; };
 		81B326D51B897F7700334F70 /* AVFoundationSoundTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 81B326D41B897F7700334F70 /* AVFoundationSoundTests.m */; };
+		81B326E51B897F9500334F70 /* AudioEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = 81B326DF1B897F9500334F70 /* AudioEngine.m */; };
+		81B326E61B897F9500334F70 /* AudioInfo.plist in Resources */ = {isa = PBXBuildFile; fileRef = 81B326E01B897F9500334F70 /* AudioInfo.plist */; };
+		81B326E71B897F9500334F70 /* failstate.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 81B326E11B897F9500334F70 /* failstate.mp3 */; };
+		81B326E81B897F9500334F70 /* gamestart.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 81B326E21B897F9500334F70 /* gamestart.mp3 */; };
+		81B326E91B897F9500334F70 /* levelscenemusic.aif in Resources */ = {isa = PBXBuildFile; fileRef = 81B326E31B897F9500334F70 /* levelscenemusic.aif */; };
+		81B326EA1B897F9500334F70 /* menuscenemusic.aif in Resources */ = {isa = PBXBuildFile; fileRef = 81B326E41B897F9500334F70 /* menuscenemusic.aif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +46,13 @@
 		81B326CE1B897F7700334F70 /* AVFoundationSoundTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AVFoundationSoundTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		81B326D31B897F7700334F70 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		81B326D41B897F7700334F70 /* AVFoundationSoundTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AVFoundationSoundTests.m; sourceTree = "<group>"; };
+		81B326DE1B897F9500334F70 /* AudioEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AudioEngine.h; sourceTree = "<group>"; };
+		81B326DF1B897F9500334F70 /* AudioEngine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AudioEngine.m; sourceTree = "<group>"; };
+		81B326E01B897F9500334F70 /* AudioInfo.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = AudioInfo.plist; sourceTree = "<group>"; };
+		81B326E11B897F9500334F70 /* failstate.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = failstate.mp3; sourceTree = "<group>"; };
+		81B326E21B897F9500334F70 /* gamestart.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = gamestart.mp3; sourceTree = "<group>"; };
+		81B326E31B897F9500334F70 /* levelscenemusic.aif */ = {isa = PBXFileReference; lastKnownFileType = file; path = levelscenemusic.aif; sourceTree = "<group>"; };
+		81B326E41B897F9500334F70 /* menuscenemusic.aif */ = {isa = PBXFileReference; lastKnownFileType = file; path = menuscenemusic.aif; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +94,13 @@
 		81B326B81B897F7700334F70 /* AVFoundationSound */ = {
 			isa = PBXGroup;
 			children = (
+				81B326DE1B897F9500334F70 /* AudioEngine.h */,
+				81B326DF1B897F9500334F70 /* AudioEngine.m */,
+				81B326E01B897F9500334F70 /* AudioInfo.plist */,
+				81B326E11B897F9500334F70 /* failstate.mp3 */,
+				81B326E21B897F9500334F70 /* gamestart.mp3 */,
+				81B326E31B897F9500334F70 /* levelscenemusic.aif */,
+				81B326E41B897F9500334F70 /* menuscenemusic.aif */,
 				81B326BB1B897F7700334F70 /* AppDelegate.h */,
 				81B326BC1B897F7700334F70 /* AppDelegate.m */,
 				81B326C01B897F7700334F70 /* GameScene.h */,
@@ -200,8 +220,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				81B326C41B897F7700334F70 /* GameScene.sks in Resources */,
+				81B326E91B897F9500334F70 /* levelscenemusic.aif in Resources */,
+				81B326E71B897F9500334F70 /* failstate.mp3 in Resources */,
 				81B326C61B897F7700334F70 /* Images.xcassets in Resources */,
+				81B326EA1B897F9500334F70 /* menuscenemusic.aif in Resources */,
 				81B326C91B897F7700334F70 /* MainMenu.xib in Resources */,
+				81B326E61B897F9500334F70 /* AudioInfo.plist in Resources */,
+				81B326E81B897F9500334F70 /* gamestart.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -219,6 +244,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				81B326E51B897F9500334F70 /* AudioEngine.m in Sources */,
 				81B326BF1B897F7700334F70 /* main.m in Sources */,
 				81B326C21B897F7700334F70 /* GameScene.m in Sources */,
 				81B326BD1B897F7700334F70 /* AppDelegate.m in Sources */,
@@ -317,7 +343,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGN_IDENTITY = "-";
 				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -330,6 +356,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				MTL_ENABLE_DEBUG_INFO = NO;
+				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = macosx;
 			};
 			name = Release;

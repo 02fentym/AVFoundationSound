@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>music</key>
+	<dict>
+		<key>menuscenemusic</key>
+		<string></string>
+	</dict>
+	<key>sfx</key>
+	<dict>
+		<key>failstate</key>
+		<string></string>
+		<key>gamestart</key>
+		<string></string>
+	</dict>
+</dict>
+</plist>
