@@ -1,0 +1,426 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		81B326BD1B897F7700334F70 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 81B326BC1B897F7700334F70 /* AppDelegate.m */; };
+		81B326BF1B897F7700334F70 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 81B326BE1B897F7700334F70 /* main.m */; };
+		81B326C21B897F7700334F70 /* GameScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 81B326C11B897F7700334F70 /* GameScene.m */; };
+		81B326C41B897F7700334F70 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 81B326C31B897F7700334F70 /* GameScene.sks */; };
+		81B326C61B897F7700334F70 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 81B326C51B897F7700334F70 /* Images.xcassets */; };
+		81B326C91B897F7700334F70 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 81B326C71B897F7700334F70 /* MainMenu.xib */; };
+		81B326D51B897F7700334F70 /* AVFoundationSoundTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 81B326D41B897F7700334F70 /* AVFoundationSoundTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		81B326CF1B897F7700334F70 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 81B326AE1B897F7700334F70 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 81B326B51B897F7700334F70;
+			remoteInfo = AVFoundationSound;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		81B326B61B897F7700334F70 /* AVFoundationSound.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AVFoundationSound.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		81B326BA1B897F7700334F70 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		81B326BB1B897F7700334F70 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		81B326BC1B897F7700334F70 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		81B326BE1B897F7700334F70 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		81B326C01B897F7700334F70 /* GameScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameScene.h; sourceTree = "<group>"; };
+		81B326C11B897F7700334F70 /* GameScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameScene.m; sourceTree = "<group>"; };
+		81B326C31B897F7700334F70 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		81B326C51B897F7700334F70 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		81B326C81B897F7700334F70 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		81B326CE1B897F7700334F70 /* AVFoundationSoundTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AVFoundationSoundTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		81B326D31B897F7700334F70 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		81B326D41B897F7700334F70 /* AVFoundationSoundTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AVFoundationSoundTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		81B326B31B897F7700334F70 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81B326CB1B897F7700334F70 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		81B326AD1B897F7700334F70 = {
+			isa = PBXGroup;
+			children = (
+				81B326B81B897F7700334F70 /* AVFoundationSound */,
+				81B326D11B897F7700334F70 /* AVFoundationSoundTests */,
+				81B326B71B897F7700334F70 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		81B326B71B897F7700334F70 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				81B326B61B897F7700334F70 /* AVFoundationSound.app */,
+				81B326CE1B897F7700334F70 /* AVFoundationSoundTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		81B326B81B897F7700334F70 /* AVFoundationSound */ = {
+			isa = PBXGroup;
+			children = (
+				81B326BB1B897F7700334F70 /* AppDelegate.h */,
+				81B326BC1B897F7700334F70 /* AppDelegate.m */,
+				81B326C01B897F7700334F70 /* GameScene.h */,
+				81B326C11B897F7700334F70 /* GameScene.m */,
+				81B326C31B897F7700334F70 /* GameScene.sks */,
+				81B326C51B897F7700334F70 /* Images.xcassets */,
+				81B326C71B897F7700334F70 /* MainMenu.xib */,
+				81B326B91B897F7700334F70 /* Supporting Files */,
+			);
+			path = AVFoundationSound;
+			sourceTree = "<group>";
+		};
+		81B326B91B897F7700334F70 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				81B326BA1B897F7700334F70 /* Info.plist */,
+				81B326BE1B897F7700334F70 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		81B326D11B897F7700334F70 /* AVFoundationSoundTests */ = {
+			isa = PBXGroup;
+			children = (
+				81B326D41B897F7700334F70 /* AVFoundationSoundTests.m */,
+				81B326D21B897F7700334F70 /* Supporting Files */,
+			);
+			path = AVFoundationSoundTests;
+			sourceTree = "<group>";
+		};
+		81B326D21B897F7700334F70 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				81B326D31B897F7700334F70 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		81B326B51B897F7700334F70 /* AVFoundationSound */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 81B326D81B897F7700334F70 /* Build configuration list for PBXNativeTarget "AVFoundationSound" */;
+			buildPhases = (
+				81B326B21B897F7700334F70 /* Sources */,
+				81B326B31B897F7700334F70 /* Frameworks */,
+				81B326B41B897F7700334F70 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AVFoundationSound;
+			productName = AVFoundationSound;
+			productReference = 81B326B61B897F7700334F70 /* AVFoundationSound.app */;
+			productType = "com.apple.product-type.application";
+		};
+		81B326CD1B897F7700334F70 /* AVFoundationSoundTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 81B326DB1B897F7700334F70 /* Build configuration list for PBXNativeTarget "AVFoundationSoundTests" */;
+			buildPhases = (
+				81B326CA1B897F7700334F70 /* Sources */,
+				81B326CB1B897F7700334F70 /* Frameworks */,
+				81B326CC1B897F7700334F70 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				81B326D01B897F7700334F70 /* PBXTargetDependency */,
+			);
+			name = AVFoundationSoundTests;
+			productName = AVFoundationSoundTests;
+			productReference = 81B326CE1B897F7700334F70 /* AVFoundationSoundTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		81B326AE1B897F7700334F70 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = "__MIKE FENTY__";
+				TargetAttributes = {
+					81B326B51B897F7700334F70 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					81B326CD1B897F7700334F70 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 81B326B51B897F7700334F70;
+					};
+				};
+			};
+			buildConfigurationList = 81B326B11B897F7700334F70 /* Build configuration list for PBXProject "AVFoundationSound" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 81B326AD1B897F7700334F70;
+			productRefGroup = 81B326B71B897F7700334F70 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				81B326B51B897F7700334F70 /* AVFoundationSound */,
+				81B326CD1B897F7700334F70 /* AVFoundationSoundTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		81B326B41B897F7700334F70 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81B326C41B897F7700334F70 /* GameScene.sks in Resources */,
+				81B326C61B897F7700334F70 /* Images.xcassets in Resources */,
+				81B326C91B897F7700334F70 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81B326CC1B897F7700334F70 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		81B326B21B897F7700334F70 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81B326BF1B897F7700334F70 /* main.m in Sources */,
+				81B326C21B897F7700334F70 /* GameScene.m in Sources */,
+				81B326BD1B897F7700334F70 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81B326CA1B897F7700334F70 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81B326D51B897F7700334F70 /* AVFoundationSoundTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		81B326D01B897F7700334F70 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 81B326B51B897F7700334F70 /* AVFoundationSound */;
+			targetProxy = 81B326CF1B897F7700334F70 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		81B326C71B897F7700334F70 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				81B326C81B897F7700334F70 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		81B326D61B897F7700334F70 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		81B326D71B897F7700334F70 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		81B326D91B897F7700334F70 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = AVFoundationSound/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		81B326DA1B897F7700334F70 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = AVFoundationSound/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		81B326DC1B897F7700334F70 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = AVFoundationSoundTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AVFoundationSound.app/Contents/MacOS/AVFoundationSound";
+			};
+			name = Debug;
+		};
+		81B326DD1B897F7700334F70 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = AVFoundationSoundTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AVFoundationSound.app/Contents/MacOS/AVFoundationSound";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		81B326B11B897F7700334F70 /* Build configuration list for PBXProject "AVFoundationSound" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				81B326D61B897F7700334F70 /* Debug */,
+				81B326D71B897F7700334F70 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		81B326D81B897F7700334F70 /* Build configuration list for PBXNativeTarget "AVFoundationSound" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				81B326D91B897F7700334F70 /* Debug */,
+				81B326DA1B897F7700334F70 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		81B326DB1B897F7700334F70 /* Build configuration list for PBXNativeTarget "AVFoundationSoundTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				81B326DC1B897F7700334F70 /* Debug */,
+				81B326DD1B897F7700334F70 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 81B326AE1B897F7700334F70 /* Project object */;
+}
