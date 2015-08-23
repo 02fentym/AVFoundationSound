@@ -12,7 +12,8 @@
 @implementation GameScene
 
 -(void)didMoveToView:(SKView *)view {
-	[[AudioEngine sharedData] playSfxFile:@"gamestart"];
+	[[AudioEngine sharedData] playMusicFile:@"levelscenemusic"]; //plays a music file
+	[[AudioEngine sharedData] playSfxFile:@"gamestart"]; //plays a sound effect
 }
 
 -(void)update:(CFTimeInterval)currentTime {
